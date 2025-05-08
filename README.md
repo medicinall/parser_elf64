@@ -40,14 +40,14 @@ No external libraries are required. Only the Linux kernel's ELF header definitio
 Use `gcc` to compile the ELF Inspector:
 
 ```bash
-gcc -o elf_inspector elf_inspector.c
+gcc -o elf_parser elf_parser64.c
 ```
 ---
 
  ## 🚀  Usage
 
 
-./elf_parser64
+./elf_parser
 
 
 The script is hardcoded to analyze /bin/ls, but you can modify this line in the main() function:
